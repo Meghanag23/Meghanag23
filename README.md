@@ -1,138 +1,41 @@
-<div align="center">
+## Hi, I'm Meghana 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1f44,50:12306b,100:1e40af&height=190&section=header&text=Meghana%20Reddy%20Gavinolla&fontColor=ffffff&fontSize=40&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Backend%20%2B%20AI%2FML&descSize=17&descAlignY=58" width="100%" alt="Header"/>
+I'm a software engineer and MS Computer Science & Software Engineering student at the **University of Washington Bothell** (graduating June 2027). Before grad school, I spent nearly two years at **Tata Consultancy Services** building backend-focused web applications with Java, Spring Boot, React, and MySQL.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=3B82F6&center=true&vCenter=true&width=620&lines=Backend+engineer+%C2%B7+Java+%C2%B7+Spring+Boot+%C2%B7+FastAPI;Building+with+RAG%2C+transformers+and+LLMs;Turning+ML+ideas+into+working+software" alt="Typing intro"/>
+These days I'm combining that backend foundation with AI and machine learning, building systems that use ML and LLMs to solve real problems.
 
-<br/>
-
-<img src="https://img.shields.io/badge/Ex--TCS-Software%20Engineer-0a1f44?style=flat-square" alt="Ex-TCS"/>
-<img src="https://img.shields.io/badge/Focus-Backend%20%2B%20AI%2FML-12306b?style=flat-square" alt="Focus"/>
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/meghana-reddy-gavinolla/"><img src="https://img.shields.io/badge/LinkedIn-0a1f44?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:meghareddyg2000@gmail.com"><img src="https://img.shields.io/badge/Email-12306b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://leetcode.com/u/LeFq2FbdPW/"><img src="https://img.shields.io/badge/LeetCode-1e40af?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-
-</div>
+- 🔬 **Currently working on:** my MS thesis, using transformer models to learn household routines from smart home sensor data and LLMs to explain unusual activity in plain language
+- 🌱 **Learning:** LLM application development, RAG, and computer vision
+- 💼 **Looking for:** Software Engineering and AI/ML Engineering internships and new-grad roles
+- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/meghana-reddy-gavinolla/) · meghareddyg2000@gmail.com
 
 ---
 
-### About me
+### 🚀 Featured Projects
 
-I'm a software engineer with nearly two years of industry experience at **Tata Consultancy Services**, where I built backend-focused web applications with Java, Spring Boot, React, and MySQL in a microservices architecture.
+#### [RAG-Enhanced AI Interview Simulator](https://github.com/Meghanag23/AI_Interview_Simulator)
 
-These days I'm building on that backend foundation with AI and machine learning. My graduate research applies transformer models and LLMs to smart home security, and my side projects use RAG and classical ML to solve everyday problems.
+AI interview agent that retrieves role-specific behavioral questions with semantic search, scores answers using the STAR framework, adapts difficulty, and generates a personalized report. Dense retrieval beat a BM25 baseline (Precision@3 0.40 vs 0.27).
 
-**Open to:** Software Engineering and AI/ML Engineering internships and new-grad roles
+`Python` `FastAPI` `ChromaDB` `SentenceTransformers` `Gemini API`
 
----
+#### Behavioral Anomaly Detection (MS thesis, private repo)
 
-### Tech stack
+Models a home's normal daily routine from IoT sensor events and flags unusual activity, with LLM-generated plain-language alerts.
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,py,js,cpp,mysql,mongodb&theme=dark" alt="Languages and databases"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs,react,redux&theme=dark" alt="Backend and web"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv,aws,git,github,maven&theme=dark" alt="ML, cloud and tools"/>
-</p>
+`Python` `PyTorch` `Transformers` `LLMs`
 
-| Area | Tools |
-|---|---|
-| **Languages** | Java · Python · JavaScript · C++ · SQL |
-| **Backend & Web** | Spring Boot · FastAPI · Node.js · React · REST APIs · Microservices |
-| **AI / ML** | PyTorch · Scikit-learn · Transformers · RAG · SentenceTransformers · ChromaDB · Gemini & OpenAI APIs · OpenCV |
-| **Cloud & Tools** | AWS (ECS, Lambda, SQS) · MySQL · MongoDB · Git · Maven · Apache ZooKeeper |
+#### [Smart Household Grocery Tracker](https://github.com/Meghanag23/household_grocery_tracker)
+
+ML pipeline on the Instacart dataset that predicts household reorders and items likely to expire, to cut food waste.
+
+`Python` `Scikit-learn` `Pandas`
 
 ---
 
-### Featured projects
+### 🛠️ Tech Stack
 
-<details>
-<summary><b>RAG-Enhanced AI Interview Simulator</b> · Python · FastAPI · ChromaDB · Gemini</summary>
-
-<br/>
-
-An AI interview agent for behavioral interview practice. It retrieves role-specific questions, scores each answer against the STAR framework, adapts difficulty as you go, and finishes with a personalized report.
-
-| | |
-|---|---|
-| **Stack** | Python, FastAPI, SentenceTransformers, ChromaDB, rank-bm25, Gemini API |
-| **Retrieval** | Dense semantic search over question embeddings, with a BM25 keyword baseline |
-| **Evaluation** | Dense retrieval beat BM25: Precision@3 **0.40 vs 0.27**, MRR **1.00 vs 0.80** |
-| **Features** | STAR scoring, adaptive difficulty, session memory, weak-topic tracking, final report |
-| **Repository** | [Meghanag23/AI_Interview_Simulator](https://github.com/Meghanag23/AI_Interview_Simulator) |
-
-</details>
-
-<details>
-<summary><b>Behavioral Anomaly Detection for Smart Homes</b> · Graduate research · PyTorch · Transformers · LLMs</summary>
-
-<br/>
-
-Transformer models learn each household's normal daily routine from IoT sensor events and flag unusual activity, and an LLM explains each alert in plain language so people can understand and act on it.
-
-| | |
-|---|---|
-| **Stack** | Python, PyTorch, Transformers, LLMs |
-| **Data** | CASAS Aruba smart home dataset (1.6M sensor events) |
-| **Progress** | Sensor-event tokenizer built and tested; modeling in progress |
-| **Repository** | Private while the research is in progress |
-
-</details>
-
-<details>
-<summary><b>Smart Household Grocery Tracker</b> · Python · Scikit-learn · Pandas</summary>
-
-<br/>
-
-An end-to-end ML pipeline that helps households plan groceries, reduce food waste, and avoid unnecessary purchases.
-
-| | |
-|---|---|
-| **Stack** | Python, Scikit-learn, Pandas, Jupyter |
-| **Data** | Instacart dataset |
-| **Model** | Random Forest reorder classifier |
-| **Results** | Precision **0.62**, Recall **0.66**, F1 **0.64** |
-| **Repository** | [Meghanag23/household_grocery_tracker](https://github.com/Meghanag23/household_grocery_tracker) |
-
-</details>
-
----
-
-### Experience
-
-**Assistant Software Engineer** · Tata Consultancy Services · *Jun 2023 – Jan 2025*
-- Built scalable enterprise web applications with Java, Spring Boot, React, and Node.js in a microservices architecture
-- Designed RESTful APIs following MVC principles and optimized MySQL queries, cutting execution time by 25%
-- Took part in code reviews, debugging, and production support for customer-facing systems
-
-`Java` `Spring Boot` `React` `MySQL` `AWS` `Microservices`
-
-**Graduate Student Researcher** · *2026 – Present*
-- Research on transformer- and LLM-based anomaly detection for smart home security
-
-`PyTorch` `Transformers` `LLMs`
-
----
-
-### Current focus
-
-```yaml
-learning:   [LLM application development, RAG, computer vision]
-building:   [smart home anomaly detection research]
-practicing: [data structures & algorithms on LeetCode]
-open_to:    [SWE and AI/ML engineering internships, new-grad roles]
-```
-
----
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/meghana-reddy-gavinolla/"><img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0a1f44?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,50:12306b,100:0a1f44&height=110&section=footer" width="100%" alt="Footer"/>
-
-</div>
+- **Languages:** Java · Python · JavaScript · C++ · SQL
+- **Backend & Web:** Spring Boot · FastAPI · Node.js · React · REST APIs · Microservices
+- **AI / ML:** PyTorch · Scikit-learn · Transformers · RAG · ChromaDB · Gemini & OpenAI APIs · OpenCV · Pandas
+- **Cloud & Tools:** AWS (ECS, Lambda, SQS) · MySQL · MongoDB · Git · Maven · Apache ZooKeeper
